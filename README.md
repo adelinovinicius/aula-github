@@ -15,5 +15,5 @@ Aula de Versionamento de Código
 
 Funcionalidades | Software 1 | Software 2 |
 ----------------|------------|------------|
-Login			|     X		 |			  |
+Login			|     X		 |		X	  |
 Esqueceu a senha|     X		 |		X	  |
