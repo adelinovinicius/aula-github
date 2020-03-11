@@ -1,0 +1,56 @@
+Referência THIS 
+----------------------------------------------------------------
+
+É uma referência ao objeto que existe dentro do próprio objeto. 
+A referência THIS só pode ser utilizada dentro da clase, não é visível extremamente. 
+
+Tem duas funções principais, acesso a métodos e atributos e chamada de construtores a partir de outros  construtores. 
+O acesso a métodos e atributos através do THIS  é necessário quando existe algum conflito de nomes, geralmente entre 
+paramentose atributos.
+
+	private String nome, sobrenome;
+
+	public void SetNome(String nome){
+	
+	this.nome = nome;
+
+	}
+
+
+Chamada de construtor
+--------------------------------------------------------------
+
+É possivel chamar um construtor a partir de outro construtor na mesma classe na fim de aproveita código já inscrito.
+Nesse caso, o THIS é usado no lugar nome do construtor.
+
+	this() - Chamada de Construtor
+	this.  - Chamada de metodos ou Atributos
+
+public class Pessoa{
+
+	private String nome, sobrenome;
+
+public Pessoa (String nome, sobrenome){
+
+	this.nome= nome;
+	this.sobrenome=sobrenome;
+
+}
+
+Copy Constructor - Copiar Objetos
+
+Public Pessoa (Pessoa p){
+
+this(p.nome, p.sobrenome); 
+
+------------------------------------------------------------------------------------
+SOBRECARGA (O que é)
+Ocorre quando uma classe declara duas ou mais versões do mesmo nome, 
+mas com ASSINATURAS diferentes.
+
+ASSINATURA DOS MÉTODOS
+É o que identifica um método e o torna único no contexto onde é válido.
+É composta pelo nome e tipo, ordem e quantidade de parâmetros.
+
+SOBRECARGA
+Normalmente é utilizada quando existem duas ou mais maneiras de executar a mesma tarefa

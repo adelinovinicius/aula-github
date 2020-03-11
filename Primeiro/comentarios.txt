@@ -1,0 +1,24 @@
+HERANÇA
+------------------------------------------------------------------------------------------
+É a capacidade de uma classe herdar os recursos declarados em outra classe.
+
+A classe que herda os recursos é chamada de sub-classe ou clase DESCENDENTE.
+A outra clase é sua superclasse ou CLASSE ANCESTRAL.
+
+EXTENDS: indica um relacionamento de herança entre duas clases.
+
+public class Descendente EXTENDS ancestral{
+......
+}
+
+REFERÊNCIA SUPER
+-----------------------------------------------------------------------------------------
+Parecida com a referência THIS, a diferencça e que sempre se refere á super-classe ou classe ancestral.
+Pode ser usada para acessar metodos e atributos da classe ancestral e também para chamar construtores ancestrais.
+
+CONSTRUTORES
+---------------------------------
+Cada classe precisa ter seu próprio conjunto de construtores. Nos construtores da classe descendente, o primeiro 
+código executável precisa ser uma chamada a algum construtor ancestral.
+
+Para isso e utilizada a referencia SUPER.
