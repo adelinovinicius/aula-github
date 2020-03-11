@@ -11,9 +11,3 @@ Aula de Versionamento de Código
 * [Github Desktop]()
 * [Netbeans]()
 
-## Software similares
-
-Funcionalidades | Software 1 | Software 2 |
-----------------|------------|------------|
-Login			|     X		 |			  |
-Esqueceu a senha|     X		 |		X	  |
